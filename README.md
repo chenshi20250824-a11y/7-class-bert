@@ -1,7 +1,7 @@
 # 7-class-bert
 This project is a **real-time financial news sentiment analysis system** based on the **FinBERT** pre-trained model. It automatically analyzes the impact of financial news on stock prices and predicts stock price movement trends.
-# 📰 FinBERT Financial News Sentiment Analysis and Stock Price Prediction System
 
+#  FinBERT Financial News Sentiment Analysis and Stock Price Prediction System
 
 Real-time Financial News Sentiment Analysis and Stock Price Prediction Based on FinBERT
 
@@ -13,11 +13,12 @@ Real-time Financial News Sentiment Analysis and Stock Price Prediction Based on 
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Website User Guide](#Website-User-Guide)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Installation & Usage](#installation--usage)
@@ -33,22 +34,22 @@ Real-time Financial News Sentiment Analysis and Stock Price Prediction Based on 
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project is a **real-time financial news sentiment analysis system** based on the **FinBERT** pre-trained model. It automatically analyzes the impact of financial news on stock prices and predicts stock price movement trends.And based on the fact that FINBERT can only generate positive, negative, or neutral outputs, we match our news with stock prices, allowing it to roughly predict stock price trends and categorize them into seven types, providing better investment advice.
 
 ### Core Features
 
-- 📊 **7-Class Prediction**: Fine-grained classification into 7 categories
-- 🌐 **Web Interface**: Beautiful and user-friendly web UI
-- ⚡ **Real-time Prediction**: Instant analysis results
-- 💡 **Investment Advice**: Provides actionable insights based on predictions
+-  **7-Class Prediction**: Fine-grained classification into 7 categories
+-  **Web Interface**: Beautiful and user-friendly web UI
+-  **Real-time Prediction**: Instant analysis results
+-  **Investment Advice**: Provides actionable insights based on predictions
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔢 7-Class Classification System
+###  7-Class Classification System
 
 | Category | Chinese Name | Price Change | Description |
 |----------|--------------|--------------|-------------|
@@ -60,16 +61,16 @@ This project is a **real-time financial news sentiment analysis system** based o
 | **rise** | 中涨 | 2% ~ 5% | Significant bullish news |
 | **surge** | 大涨 | > 5% | Major positive news |
 
-### 🎨 Interface Features
+###  Interface Features
 
-- ✅ Modern purple gradient design
-- ✅ Real-time prediction without page refresh
-- ✅ Probability visualization with progress bars
-- ✅ Example news for quick testing
+-  Modern purple gradient design
+-  Real-time prediction without page refresh
+-  Probability visualization with progress bars
+-  Example news for quick testing
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Deep Learning Framework
 - **PyTorch** 2.0+
@@ -91,8 +92,14 @@ This project is a **real-time financial news sentiment analysis system** based o
 - **Anaconda**
 
 ---
-
-## 📊 Dataset
+## Website User Guide
+- Run the app_flask.py file
+- Open the terminal
+- input **cd 7201_project** in the terminal
+- input python app_flask.py Run File
+- A URL will appear in the terminal, and you can open it in a browser.
+---
+##  Dataset
 
 ### Data Sources
 
@@ -118,7 +125,7 @@ Labels are automatically generated based on **actual stock price changes** after
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ### Base Model
 
@@ -154,7 +161,7 @@ Device:  CUDA (GPU)
 
 ---
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Requirements
 
@@ -215,21 +222,21 @@ Open browser and visit: `http://localhost:5000`
 
 ---
 
-## 📖 User Guide
+##  User Guide
 
 ### Using the Web Interface
 
 #### Method 1: Manual Input
 
 1. Enter English financial news in the text box
-2. Click **"🔍 Analyze"** button
+2. Click **" Analyze"** button
 3. View prediction results
 
 #### Method 2: Use Examples
 
-1. Click example button (e.g., "📈 Apple earnings exceed expectations")
+1. Click example button (e.g., " Apple earnings exceed expectations")
 2. News automatically fills the input box
-3. Click **"🔍 Analyze"** to view results
+3. Click **" Analyze"** to view results
 
 ### Interpreting Results
 
@@ -252,7 +259,7 @@ Pre-tax loss totaled euro 0.3 million ,compared to a loss of euro 2.2 million in
 - Category: **rise**
 - Price Change: 2% ~ 5%
 - Confidence:  78.11%
-- Advice: 📈 Strong bullish signal, buying is recommended
+- Advice:  Strong bullish signal, buying is recommended
 
 ---
 
@@ -283,7 +290,7 @@ Pre-tax loss totaled euro 0.3 million ,compared to a loss of euro 2.2 million in
 ```
 
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Model Performance
 
@@ -308,7 +315,7 @@ Pre-tax loss totaled euro 0.3 million ,compared to a loss of euro 2.2 million in
 
 ---
 
-## ❓ FAQ
+##  FAQ
 
 ### Q1: Why are predictions sometimes inaccurate?
 
@@ -342,14 +349,14 @@ Pre-tax loss totaled euro 0.3 million ,compared to a loss of euro 2.2 million in
 
 ### Q5: Can the model be used for actual trading?
 
-**A:** ⚠️ **Not recommended! **
+**A:**  **Not recommended! **
 - This project is for educational and research purposes only
 - Predictions are for reference only
 - Investment involves risks; decisions should be made cautiously
 - Combine with fundamental and technical analysis
 
 ---
-## ⚠️ Limitations and Future Improvements
+##  Limitations and Future Improvements
 
 ### Current Limitations
 
@@ -388,7 +395,7 @@ Pre-tax loss totaled euro 0.3 million ,compared to a loss of euro 2.2 million in
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 ### Feature Extensions
 
@@ -416,17 +423,17 @@ Pre-tax loss totaled euro 0.3 million ,compared to a loss of euro 2.2 million in
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **[Yixiangrui]**
 
-- 📧 Email: MC56586@um.edu.mo
-- 🎓 Institution: [University Of Macau]
-- 🐱 GitHub: [@chenshi20250824-a11y](https://github.com/chenshi20250824-a11y/7-class-bert.git)
+-  Email: MC56586@um.edu.mo
+-  Institution: [University Of Macau]
+-  GitHub: [@chenshi20250824-a11y](https://github.com/chenshi20250824-a11y/7-class-bert.git)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 ### Open Source Projects
 
@@ -441,33 +448,25 @@ Pre-tax loss totaled euro 0.3 million ,compared to a loss of euro 2.2 million in
 - [Yahoo Finance](https://finance.yahoo.com/)
 - [FinViz](https://finviz.com/)
 
-### References
+### Reference
 
-```bibtex
-@article{araci2019finbert,
-  title={Finbert: Financial sentiment analysis with pre-trained language models},
-  author={Araci, Dogu},
-  journal={arXiv preprint arXiv:1908.10063},
-  year={2019}
-}
+This project is based on the FinBERT model for financial sentiment analysis:
 
-@article{devlin2018bert,
-  title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding},
-  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  journal={arXiv preprint arXiv:1810.04805},
-  year={2018}
-}
-```
+**Araci, D.** (2019). FinBERT: Financial Sentiment Analysis with Pre-trained Language Models. *arXiv preprint arXiv:1908.10063*. 
+
+-  Paper: https://arxiv.org/abs/1908.10063
+-  Official Implementation: https://github.com/ProsusAI/finBERT
+-  Hugging Face Model: [ProsusAI/finbert](https://huggingface.co/ProsusAI/finbert)
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **Important Notice:**
 
@@ -479,19 +478,19 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📮 Contact
+##  Contact
 
 For questions or suggestions, please contact via: 
 
-- 📧 Email: MC56586@um.edu.mo
-- 💬 Submit [Issue](https://github.com/chenshi20250824-a11y/7-class-bert.git)
-- 🔀 Submit [Pull Request](https://github.com/chenshi20250824-a11y/7-class-bert.git)
+-  Email: MC56586@um.edu.mo
+-  Submit [Issue](https://github.com/chenshi20250824-a11y/7-class-bert.git)
+-  Submit [Pull Request](https://github.com/chenshi20250824-a11y/7-class-bert.git)
 
 ---
 
-## ⭐ Star History
+##  Star History
 
-If this project helps you, please give it a Star ⭐! 
+If this project helps you, please give it a Star ! 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/finbert-sentiment&type=Date)](https://star-history.com/#yourusername/finbert-sentiment&Date)
 
